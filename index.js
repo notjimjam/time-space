@@ -142,7 +142,7 @@ function removeNum() {
     numbers.splice(3,1)
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: 0(n)
 
 
 // 10) -------------------------------------------------------
@@ -150,7 +150,7 @@ function insertNum() {
     numbers.splice(3, 0, 19)
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: 0(n)
 
 
 // 11) -------------------------------------------------------
@@ -158,7 +158,7 @@ function pushNum() {
     numbers.push(25)
 }
 // Q: What is the time complexity of the function?
-// ANSWER:
+// ANSWER: O(1)
 
 
 // 12) -------------------------------------------------------
@@ -169,7 +169,7 @@ function printFirstTwoNames(array) {
 }
 
 // Q: What is the time complexity of the function? 
-// ANSWER:
+// ANSWER: O(1)
 
 
 
