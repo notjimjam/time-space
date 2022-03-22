@@ -194,7 +194,7 @@ function arrInception(parentArr) {
     }
   }
   // Q: What is the space complexity of this function?
-  // ANSWER:
+  // ANSWER: O(n)
   
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
@@ -212,12 +212,18 @@ function getNumbersSquared(numbers) {
 }
 
 // Q: What is the space complexity of this function?
-// ANSWER:
+// ANSWER: 0(n)
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
-// ANSWER:
-
+// ANSWER: Yes
+function getNumbersSquared2(numbers) {
+   let squaredValue = 0
+  for (let i = 0; i < numbers.length; i++) {
+    let squaredValue = numbers[i] * numbers2[i]
+  }
+ console.log(squaredValue)
+}
 
 // 15) Here are two functions that you came up with to count how many of each letter is in a given string and return an object with the individual counts: 
 
@@ -281,13 +287,13 @@ function countLettersRoundTwo(str) {
 
 
 // Q: Do these functions have the same space complexity?
-// ANSWER:
+// ANSWER: yes
 
 
 // Q: What is the space complexity of each? 
-// ANSWER - countLetters:
-// ANSWER - countLettersRoundTwo:
+// ANSWER - countLetters: O(n)
+// ANSWER - countLettersRoundTwo: O(n)
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
-// ANSWER: 
+// ANSWER: the function space is based only on the string size
