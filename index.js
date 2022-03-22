@@ -12,10 +12,10 @@ function printNumbers(numbers) {
   }
   
 // Q: Given an array of numbers, what is the time complexity of this function?
-// ANSWER:
+// ANSWER: O(n)
 
 // Q: What is the space complexity?
-// ANSWER:
+// ANSWER: O(1)
 
 
 
@@ -38,14 +38,14 @@ function findFourth(numbers) {
   }
 
 // Q: What is the time complexity of of this solution?
-// ANSWER:
+// ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
-// ANSWER:
+// ANSWER: O(1)
 
 
 // Q: Could you come up with a solution that has a better time complexity? If so, write out that solution and note the time complexity. If not, why not?
-// ANSWER:
+// ANSWER: No, because you can't make a solution with a better time complexity than O(1)
 
 
 // 3) -------------------------------------------------------
@@ -55,10 +55,10 @@ function printA() {
     }
 }
 // Q: What is the time complexity of this function?
-// ANSWER:
+// ANSWER: O(1)
 
 // Q: What is the space complexity of this function?
-// ANSWER:
+// ANSWER: O(1)
 
 // 4) -------------------------------------------------------
 function printB(number) {
@@ -67,10 +67,10 @@ function printB(number) {
   }
 }
 // Q: What is the time complexity of this function?
-// ANSWER:
+// ANSWER: O(n)
 
 // Q: What is the space complexity of this function?
-// ANSWER:
+// ANSWER: O(1)
 
 
 
@@ -83,10 +83,10 @@ function printC(num, arr) {
   }
 }
 // Q: What is the time complexity of this function?
-// ANSWER:
+// ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER:
+// ANSWER: O(1)
 
 
 // 6) -------------------------------------------------------
@@ -98,10 +98,10 @@ function nested(numbers) {
     }
   }
 // Q: What is the time complexity of this function?
-// ANSWER:
+// ANSWER: O(n^2)
 
 // Q: What is the space complexity of this function?
-// ANSWER:
+// ANSWER: O(1)
 
 
 
@@ -112,10 +112,10 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER:
+// ANSWER: O(n)
 
 // Q: What is the space complexity of the filter higher-order function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
@@ -124,10 +124,10 @@ let newNumbersB = numbers.map((num) => {
   return num * 3
 })
 // Q: What is the time complexity of the map higher-order function?
-// ANSWER:
+// ANSWER: O(n)
 
 // Q: What is the space complexity of the map higher-order function?
-// ANSWER:
+// ANSWER: O(n)
 
 
 
